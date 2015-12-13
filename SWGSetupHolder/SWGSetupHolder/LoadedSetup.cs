@@ -13,37 +13,37 @@ namespace SWGSetupHolder
         private void LoadedSetup_Load(object sender, EventArgs e)
         {
             SavedSetupsPage ssp = new SavedSetupsPage();
-            SetupNumberInput.Text = Properties.Settings.Default.SelectedIndex;
+            SetupNumberInput.Text = Properties.Settings.Default.CurrentSetupNumber;
 
-            if (Properties.Settings.Default.SelectedIndex == "1")
+            if (Properties.Settings.Default.CurrentSetupNumber == "1")
             {
                 SetupNameInput.Text = Properties.Settings.Default.FirstSetupName;
                 ProfessionInput.Text = Properties.Settings.Default.FirstSetupProfession;
                 ExpertiseInput.Text = Properties.Settings.Default.FirstSetupExpertise;
             }
 
-            if (Properties.Settings.Default.SelectedIndex == "2")
+            if (Properties.Settings.Default.CurrentSetupNumber == "2")
             {
                 SetupNameInput.Text = Properties.Settings.Default.SecondSetupName;
                 ProfessionInput.Text = Properties.Settings.Default.SecondSetupProfession;
                 ExpertiseInput.Text = Properties.Settings.Default.SecondSetupExpertise;
             }
 
-            if (Properties.Settings.Default.SelectedIndex == "3")
+            if (Properties.Settings.Default.CurrentSetupNumber == "3")
             {
                 SetupNameInput.Text = Properties.Settings.Default.ThirdSetupName;
                 ProfessionInput.Text = Properties.Settings.Default.ThirdSetupProfession;
                 ExpertiseInput.Text = Properties.Settings.Default.ThirdSetupExpertise;
             }
 
-            if (Properties.Settings.Default.SelectedIndex == "4")
+            if (Properties.Settings.Default.CurrentSetupNumber == "4")
             {
                 SetupNameInput.Text = Properties.Settings.Default.FourthSetupName;
                 ProfessionInput.Text = Properties.Settings.Default.FourthSetupProfession;
                 ExpertiseInput.Text = Properties.Settings.Default.FourthSetupExpertise;
             }
 
-            if (Properties.Settings.Default.SelectedIndex == "5")
+            if (Properties.Settings.Default.CurrentSetupNumber == "5")
             {
                 SetupNameInput.Text = Properties.Settings.Default.FifthSetupName;
                 ProfessionInput.Text = Properties.Settings.Default.FifthSetupProfession;

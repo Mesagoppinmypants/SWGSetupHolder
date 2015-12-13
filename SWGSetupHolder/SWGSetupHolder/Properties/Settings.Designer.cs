@@ -134,12 +134,12 @@ namespace SWGSetupHolder.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string SelectedIndex {
+        public string CurrentSetupNumber {
             get {
-                return ((string)(this["SelectedIndex"]));
+                return ((string)(this["CurrentSetupNumber"]));
             }
             set {
-                this["SelectedIndex"] = value;
+                this["CurrentSetupNumber"] = value;
             }
         }
         

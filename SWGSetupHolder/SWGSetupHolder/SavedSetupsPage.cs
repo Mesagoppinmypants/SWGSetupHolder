@@ -54,27 +54,27 @@ namespace SWGSetupHolder
         {
             if (SetupSelection.SelectedIndex == 0)
             {
-                Properties.Settings.Default.SelectedIndex = "1";
+                Properties.Settings.Default.CurrentSetupNumber = "1";
             }
 
             if (SetupSelection.SelectedIndex == 1)
             {
-                Properties.Settings.Default.SelectedIndex = "2";
+                Properties.Settings.Default.CurrentSetupNumber = "2";
             }
 
             if (SetupSelection.SelectedIndex == 2)
             {
-                Properties.Settings.Default.SelectedIndex = "3";
+                Properties.Settings.Default.CurrentSetupNumber = "3";
             }
 
             if (SetupSelection.SelectedIndex == 3)
             {
-                Properties.Settings.Default.SelectedIndex = "4";
+                Properties.Settings.Default.CurrentSetupNumber = "4";
             }
 
             if (SetupSelection.SelectedIndex == 4)
             {
-                Properties.Settings.Default.SelectedIndex = "5";
+                Properties.Settings.Default.CurrentSetupNumber = "5";
             }
         }
     }

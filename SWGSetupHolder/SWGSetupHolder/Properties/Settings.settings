@@ -30,7 +30,7 @@
       <Value Profile="(Default)">
                 </Value>
     </Setting>
-    <Setting Name="SelectedIndex" Type="System.String" Scope="User">
+    <Setting Name="CurrentSetupNumber" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="FirstSetupProfession" Type="System.String" Scope="User">

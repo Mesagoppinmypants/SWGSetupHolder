@@ -147,27 +147,27 @@ namespace SWGSetupHolder
         {
             if (Properties.Settings.Default.FirstSetupName == "")
             {
-                SetupNumberInput.SelectedIndex = 0;
+                SetupNumberInput.Text = "1";
             }
             
             if (Properties.Settings.Default.FirstSetupName != "" && Properties.Settings.Default.SecondSetupName == "")
             {
-                SetupNumberInput.SelectedIndex = 1;
+                SetupNumberInput.Text = "2";
             }
 
             if (Properties.Settings.Default.FirstSetupName != "" && Properties.Settings.Default.SecondSetupName != "" && Properties.Settings.Default.ThirdSetupName == "")
             {
-                SetupNumberInput.SelectedIndex = 2;
+                SetupNumberInput.Text = "3";
             }
 
             if (Properties.Settings.Default.FirstSetupName != "" && Properties.Settings.Default.SecondSetupName != "" && Properties.Settings.Default.ThirdSetupName != "" && Properties.Settings.Default.FourthSetupName == "")
             {
-                SetupNumberInput.SelectedIndex = 3;
+                SetupNumberInput.Text = "4";
             }
 
             if (Properties.Settings.Default.FirstSetupName != "" && Properties.Settings.Default.SecondSetupName != "" && Properties.Settings.Default.ThirdSetupName != "" && Properties.Settings.Default.FourthSetupName != "" && Properties.Settings.Default.FifthSetupName == "")
             {
-                SetupNumberInput.SelectedIndex = 4;
+                SetupNumberInput.Text = "5";
             }
 
         }

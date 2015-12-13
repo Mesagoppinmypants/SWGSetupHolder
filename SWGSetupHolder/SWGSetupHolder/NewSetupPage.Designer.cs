@@ -34,11 +34,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.SetupNameInput = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.SetupNumberInput = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.ExpertiseInput = new System.Windows.Forms.TextBox();
             this.ArmorInput = new System.Windows.Forms.Button();
             this.WeaponInput = new System.Windows.Forms.Button();
+            this.SetupNumberInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ProfessionInput
@@ -95,21 +95,6 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Setup Number";
             // 
-            // SetupNumberInput
-            // 
-            this.SetupNumberInput.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.SetupNumberInput.FormattingEnabled = true;
-            this.SetupNumberInput.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.SetupNumberInput.Location = new System.Drawing.Point(166, 31);
-            this.SetupNumberInput.Name = "SetupNumberInput";
-            this.SetupNumberInput.Size = new System.Drawing.Size(100, 21);
-            this.SetupNumberInput.TabIndex = 13;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -146,16 +131,24 @@
             this.WeaponInput.UseVisualStyleBackColor = true;
             this.WeaponInput.Click += new System.EventHandler(this.WeaponInput_Click);
             // 
+            // SetupNumberInput
+            // 
+            this.SetupNumberInput.Location = new System.Drawing.Point(166, 32);
+            this.SetupNumberInput.Name = "SetupNumberInput";
+            this.SetupNumberInput.ReadOnly = true;
+            this.SetupNumberInput.Size = new System.Drawing.Size(100, 20);
+            this.SetupNumberInput.TabIndex = 33;
+            // 
             // NewSetupPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.SetupNumberInput);
             this.Controls.Add(this.WeaponInput);
             this.Controls.Add(this.ArmorInput);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.ExpertiseInput);
-            this.Controls.Add(this.SetupNumberInput);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.SetupNameInput);
@@ -182,10 +175,10 @@
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox SetupNameInput;
         private System.Windows.Forms.Label label3;
-        public System.Windows.Forms.ComboBox SetupNumberInput;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox ExpertiseInput;
         private System.Windows.Forms.Button ArmorInput;
         private System.Windows.Forms.Button WeaponInput;
+        public System.Windows.Forms.TextBox SetupNumberInput;
     }
 }
