@@ -12,8 +12,15 @@ namespace SWGSetupHolder
 
         private void MakeNewSetupButton_Click(object sender, EventArgs e)
         {
-            NewSetupPage nsp = new NewSetupPage();
-            nsp.ShowDialog();
+            if (Properties.Settings.Default.FirstSetupName != "" && Properties.Settings.Default.SecondSetupName != "" && Properties.Settings.Default.ThirdSetupName != "" && Properties.Settings.Default.FourthSetupName != "" && Properties.Settings.Default.FifthSetupName != "")
+            {
+                MessageBox.Show("You have already reached your max limit of setups to save, please delete one to be able to make another one.", "Error");
+            }
+            else
+            {
+                NewSetupPage nsp = new NewSetupPage();
+                nsp.ShowDialog();
+            }
         }
 
         private void ViewSavedSetupsButton_Click(object sender, EventArgs e)
