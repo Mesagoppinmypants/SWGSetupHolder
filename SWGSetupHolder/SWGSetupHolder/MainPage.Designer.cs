@@ -30,11 +30,12 @@
         {
             this.MakeNewSetupButton = new System.Windows.Forms.Button();
             this.ViewSavedSetupsButton = new System.Windows.Forms.Button();
+            this.DeleteAllSetupsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // MakeNewSetupButton
             // 
-            this.MakeNewSetupButton.Location = new System.Drawing.Point(79, 72);
+            this.MakeNewSetupButton.Location = new System.Drawing.Point(79, 52);
             this.MakeNewSetupButton.Name = "MakeNewSetupButton";
             this.MakeNewSetupButton.Size = new System.Drawing.Size(120, 30);
             this.MakeNewSetupButton.TabIndex = 0;
@@ -44,7 +45,7 @@
             // 
             // ViewSavedSetupsButton
             // 
-            this.ViewSavedSetupsButton.Location = new System.Drawing.Point(79, 137);
+            this.ViewSavedSetupsButton.Location = new System.Drawing.Point(79, 108);
             this.ViewSavedSetupsButton.Name = "ViewSavedSetupsButton";
             this.ViewSavedSetupsButton.Size = new System.Drawing.Size(120, 30);
             this.ViewSavedSetupsButton.TabIndex = 1;
@@ -52,11 +53,22 @@
             this.ViewSavedSetupsButton.UseVisualStyleBackColor = true;
             this.ViewSavedSetupsButton.Click += new System.EventHandler(this.ViewSavedSetupsButton_Click);
             // 
+            // DeleteAllSetupsButton
+            // 
+            this.DeleteAllSetupsButton.Location = new System.Drawing.Point(79, 167);
+            this.DeleteAllSetupsButton.Name = "DeleteAllSetupsButton";
+            this.DeleteAllSetupsButton.Size = new System.Drawing.Size(120, 30);
+            this.DeleteAllSetupsButton.TabIndex = 2;
+            this.DeleteAllSetupsButton.Text = "Delete All Setups";
+            this.DeleteAllSetupsButton.UseVisualStyleBackColor = true;
+            this.DeleteAllSetupsButton.Click += new System.EventHandler(this.DeleteAllSetupsButton_Click);
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.DeleteAllSetupsButton);
             this.Controls.Add(this.ViewSavedSetupsButton);
             this.Controls.Add(this.MakeNewSetupButton);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -73,6 +85,7 @@
 
         private System.Windows.Forms.Button MakeNewSetupButton;
         private System.Windows.Forms.Button ViewSavedSetupsButton;
+        private System.Windows.Forms.Button DeleteAllSetupsButton;
     }
 }
 

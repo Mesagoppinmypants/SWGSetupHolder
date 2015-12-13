@@ -26,12 +26,108 @@ namespace SWGSetupHolder.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstWeaponName {
+            get {
+                return ((string)(this["FirstWeaponName"]));
+            }
+            set {
+                this["FirstWeaponName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstWeaponDPS {
+            get {
+                return ((string)(this["FirstWeaponDPS"]));
+            }
+            set {
+                this["FirstWeaponDPS"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstWeaponElement {
+            get {
+                return ((string)(this["FirstWeaponElement"]));
+            }
+            set {
+                this["FirstWeaponElement"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstWeaponExotics {
+            get {
+                return ((string)(this["FirstWeaponExotics"]));
+            }
+            set {
+                this["FirstWeaponExotics"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string FirstSetupName {
             get {
                 return ((string)(this["FirstSetupName"]));
             }
             set {
                 this["FirstSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondSetupName {
+            get {
+                return ((string)(this["SecondSetupName"]));
+            }
+            set {
+                this["SecondSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ThirdSetupName {
+            get {
+                return ((string)(this["ThirdSetupName"]));
+            }
+            set {
+                this["ThirdSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FourthSetupName {
+            get {
+                return ((string)(this["FourthSetupName"]));
+            }
+            set {
+                this["FourthSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FifthSetupName {
+            get {
+                return ((string)(this["FifthSetupName"]));
+            }
+            set {
+                this["FifthSetupName"] = value;
             }
         }
     }

@@ -21,5 +21,20 @@ namespace SWGSetupHolder
             SavedSetupsPage ssp = new SavedSetupsPage();
             ssp.ShowDialog();
         }
+
+        private void DeleteAllSetupsButton_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Are you sure you want to delete all saved setups?", "Warning", MessageBoxButtons.YesNo);
+            
+            if (dr == DialogResult.Yes)
+            {
+                Properties.Settings.Default.FirstSetupName = "";
+                Properties.Settings.Default.SecondSetupName = "";
+                Properties.Settings.Default.ThirdSetupName = "";
+                Properties.Settings.Default.FourthSetupName = "";
+                Properties.Settings.Default.FifthSetupName = "";
+                MessageBox.Show("All data has been successfully deleted.");
+            }
+        }
     }
 }

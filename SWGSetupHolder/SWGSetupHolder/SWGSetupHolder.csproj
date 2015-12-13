@@ -66,6 +66,12 @@
     <Compile Include="SavedSetupsPage.Designer.cs">
       <DependentUpon>SavedSetupsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="WeaponInputInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeaponInputInformation.Designer.cs">
+      <DependentUpon>WeaponInputInformation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +89,9 @@
     </Compile>
     <EmbeddedResource Include="SavedSetupsPage.resx">
       <DependentUpon>SavedSetupsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeaponInputInformation.resx">
+      <DependentUpon>WeaponInputInformation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
