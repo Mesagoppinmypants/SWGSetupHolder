@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SWGSetupHolder
@@ -15,6 +8,18 @@ namespace SWGSetupHolder
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void MakeNewSetupButton_Click(object sender, EventArgs e)
+        {
+            NewSetupPage nsp = new NewSetupPage();
+            nsp.ShowDialog();
+        }
+
+        private void ViewSavedSetupsButton_Click(object sender, EventArgs e)
+        {
+            SavedSetupsPage ssp = new SavedSetupsPage();
+            ssp.ShowDialog();
         }
     }
 }
