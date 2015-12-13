@@ -33,11 +33,13 @@
             this.SaveNewSetupButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SetupNameInput = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SetupNumberInput = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(172, 32);
+            this.textBox1.Location = new System.Drawing.Point(166, 120);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
@@ -46,7 +48,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(168, 9);
+            this.label1.Location = new System.Drawing.Point(162, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 20);
             this.label1.TabIndex = 3;
@@ -79,11 +81,38 @@
             this.SetupNameInput.Size = new System.Drawing.Size(100, 20);
             this.SetupNameInput.TabIndex = 9;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(162, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(112, 20);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Setup Number";
+            // 
+            // SetupNumberInput
+            // 
+            this.SetupNumberInput.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SetupNumberInput.FormattingEnabled = true;
+            this.SetupNumberInput.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.SetupNumberInput.Location = new System.Drawing.Point(166, 31);
+            this.SetupNumberInput.Name = "SetupNumberInput";
+            this.SetupNumberInput.Size = new System.Drawing.Size(59, 21);
+            this.SetupNumberInput.TabIndex = 13;
+            // 
             // NewSetupPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.SetupNumberInput);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.SetupNameInput);
             this.Controls.Add(this.SaveNewSetupButton);
@@ -108,5 +137,7 @@
         private System.Windows.Forms.Button SaveNewSetupButton;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox SetupNameInput;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox SetupNumberInput;
     }
 }
