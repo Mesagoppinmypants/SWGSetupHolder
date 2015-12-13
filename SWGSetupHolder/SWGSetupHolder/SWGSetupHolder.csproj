@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoadedSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadedSetup.Designer.cs">
+      <DependentUpon>LoadedSetup.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="WeaponInputInformation.Designer.cs">
       <DependentUpon>WeaponInputInformation.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="LoadedSetup.resx">
+      <DependentUpon>LoadedSetup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>

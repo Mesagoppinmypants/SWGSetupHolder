@@ -10,13 +10,48 @@ namespace SWGSetupHolder
             InitializeComponent();
         }
 
+        private void FirstSetupSave()
+        {
+            Properties.Settings.Default.FirstSetupName = SetupNameInput.Text;
+            Properties.Settings.Default.FirstSetupProfession = ProfessionInput.Text;
+            Properties.Settings.Default.FirstSetupExpertise = ExpertiseInput.Text;
+        }
+
+        private void SecondSetupSave()
+        {
+            Properties.Settings.Default.SecondSetupName = SetupNameInput.Text;
+            Properties.Settings.Default.SecondSetupProfession = ProfessionInput.Text;
+            Properties.Settings.Default.SecondSetupExpertise = ExpertiseInput.Text;
+        }
+
+        private void ThirdSetupSave()
+        {
+            Properties.Settings.Default.ThirdSetupName = SetupNameInput.Text;
+            Properties.Settings.Default.ThirdSetupProfession = ProfessionInput.Text;
+            Properties.Settings.Default.ThirdSetupExpertise = ExpertiseInput.Text;
+        }
+
+        private void FourthSetupSave()
+        {
+            Properties.Settings.Default.FourthSetupName = SetupNameInput.Text;
+            Properties.Settings.Default.FourthSetupProfession = ProfessionInput.Text;
+            Properties.Settings.Default.FourthSetupExpertise = ExpertiseInput.Text;
+        }
+
+        private void FifthSetupSave()
+        {
+            Properties.Settings.Default.FifthSetupName = SetupNameInput.Text;
+            Properties.Settings.Default.FifthSetupProfession = ProfessionInput.Text;
+            Properties.Settings.Default.FifthSetupExpertise = ExpertiseInput.Text;
+        }
+
         private void SaveNewSetupButton_Click(object sender, EventArgs e)
         {
             if (SetupNumberInput.Text == "1")
             {
                 if (Properties.Settings.Default.FirstSetupName == "")
                 {
-                    Properties.Settings.Default.FirstSetupName = SetupNameInput.Text;
+                    FirstSetupSave();
                 }
                 else
                 {
@@ -24,7 +59,7 @@ namespace SWGSetupHolder
 
                     if (dr == DialogResult.Yes)
                     {
-                        Properties.Settings.Default.FirstSetupName = SetupNameInput.Text;
+                        FirstSetupSave();
                     }
                 }
                 Properties.Settings.Default.Save();
@@ -35,7 +70,7 @@ namespace SWGSetupHolder
             {
                 if (Properties.Settings.Default.SecondSetupName == "")
                 {
-                    Properties.Settings.Default.SecondSetupName = SetupNameInput.Text;
+                    SecondSetupSave();
                 }
                 else
                 {
@@ -43,7 +78,7 @@ namespace SWGSetupHolder
 
                     if (dr == DialogResult.Yes)
                     {
-                        Properties.Settings.Default.SecondSetupName = SetupNameInput.Text;
+                        SecondSetupSave();
                     }
                 }
                 Properties.Settings.Default.Save();
@@ -54,7 +89,7 @@ namespace SWGSetupHolder
             {
                 if (Properties.Settings.Default.ThirdSetupName == "")
                 {
-                    Properties.Settings.Default.ThirdSetupName = SetupNameInput.Text;
+                    ThirdSetupSave();
                 }
                 else
                 {
@@ -62,7 +97,7 @@ namespace SWGSetupHolder
 
                     if (dr == DialogResult.Yes)
                     {
-                        Properties.Settings.Default.ThirdSetupName = SetupNameInput.Text;
+                        ThirdSetupSave();
                     }
                 }
                 Properties.Settings.Default.Save();
@@ -73,7 +108,7 @@ namespace SWGSetupHolder
             {
                 if (Properties.Settings.Default.FourthSetupName == "")
                 {
-                    Properties.Settings.Default.FourthSetupName = SetupNameInput.Text;
+                    FourthSetupSave();
                 }
                 else
                 {
@@ -81,7 +116,7 @@ namespace SWGSetupHolder
 
                     if (dr == DialogResult.Yes)
                     {
-                        Properties.Settings.Default.FourthSetupName = SetupNameInput.Text;
+                        FourthSetupSave();
                     }
                 }
                 Properties.Settings.Default.Save();
@@ -92,7 +127,7 @@ namespace SWGSetupHolder
             {
                 if (Properties.Settings.Default.FifthSetupName == "")
                 {
-                    Properties.Settings.Default.FifthSetupName = SetupNameInput.Text;
+                    FifthSetupSave();
                 }
                 else
                 {
@@ -100,7 +135,7 @@ namespace SWGSetupHolder
 
                     if (dr == DialogResult.Yes)
                     {
-                        Properties.Settings.Default.FifthSetupName = SetupNameInput.Text;
+                        FifthSetupSave();
                     }
                 }
                 Properties.Settings.Default.Save();

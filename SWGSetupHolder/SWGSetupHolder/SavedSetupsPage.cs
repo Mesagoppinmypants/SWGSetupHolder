@@ -46,7 +46,36 @@ namespace SWGSetupHolder
 
         private void LoadSetupButton_Click(object sender, EventArgs e)
         {
+            LoadedSetup ls = new LoadedSetup();
+            ls.ShowDialog();
+        }
 
+        private void SetupSelection_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (SetupSelection.SelectedIndex == 0)
+            {
+                Properties.Settings.Default.SelectedIndex = "1";
+            }
+
+            if (SetupSelection.SelectedIndex == 1)
+            {
+                Properties.Settings.Default.SelectedIndex = "2";
+            }
+
+            if (SetupSelection.SelectedIndex == 2)
+            {
+                Properties.Settings.Default.SelectedIndex = "3";
+            }
+
+            if (SetupSelection.SelectedIndex == 3)
+            {
+                Properties.Settings.Default.SelectedIndex = "4";
+            }
+
+            if (SetupSelection.SelectedIndex == 4)
+            {
+                Properties.Settings.Default.SelectedIndex = "5";
+            }
         }
     }
 }

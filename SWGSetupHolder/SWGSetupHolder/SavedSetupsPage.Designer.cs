@@ -41,6 +41,7 @@
             this.SetupSelection.Name = "SetupSelection";
             this.SetupSelection.Size = new System.Drawing.Size(121, 21);
             this.SetupSelection.TabIndex = 0;
+            this.SetupSelection.SelectedIndexChanged += new System.EventHandler(this.SetupSelection_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -83,7 +84,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox SetupSelection;
+        public System.Windows.Forms.ComboBox SetupSelection;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button LoadSetupButton;
     }

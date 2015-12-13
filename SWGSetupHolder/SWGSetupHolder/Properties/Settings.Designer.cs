@@ -74,18 +74,6 @@ namespace SWGSetupHolder.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FirstSetupName {
-            get {
-                return ((string)(this["FirstSetupName"]));
-            }
-            set {
-                this["FirstSetupName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string SecondSetupName {
             get {
                 return ((string)(this["SecondSetupName"]));
@@ -128,6 +116,150 @@ namespace SWGSetupHolder.Properties {
             }
             set {
                 this["FifthSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupName {
+            get {
+                return ((string)(this["FirstSetupName"]));
+            }
+            set {
+                this["FirstSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SelectedIndex {
+            get {
+                return ((string)(this["SelectedIndex"]));
+            }
+            set {
+                this["SelectedIndex"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupProfession {
+            get {
+                return ((string)(this["FirstSetupProfession"]));
+            }
+            set {
+                this["FirstSetupProfession"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondSetupProfession {
+            get {
+                return ((string)(this["SecondSetupProfession"]));
+            }
+            set {
+                this["SecondSetupProfession"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ThirdSetupProfession {
+            get {
+                return ((string)(this["ThirdSetupProfession"]));
+            }
+            set {
+                this["ThirdSetupProfession"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FourthSetupProfession {
+            get {
+                return ((string)(this["FourthSetupProfession"]));
+            }
+            set {
+                this["FourthSetupProfession"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FifthSetupProfession {
+            get {
+                return ((string)(this["FifthSetupProfession"]));
+            }
+            set {
+                this["FifthSetupProfession"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupExpertise {
+            get {
+                return ((string)(this["FirstSetupExpertise"]));
+            }
+            set {
+                this["FirstSetupExpertise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondSetupExpertise {
+            get {
+                return ((string)(this["SecondSetupExpertise"]));
+            }
+            set {
+                this["SecondSetupExpertise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ThirdSetupExpertise {
+            get {
+                return ((string)(this["ThirdSetupExpertise"]));
+            }
+            set {
+                this["ThirdSetupExpertise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FourthSetupExpertise {
+            get {
+                return ((string)(this["FourthSetupExpertise"]));
+            }
+            set {
+                this["FourthSetupExpertise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FifthSetupExpertise {
+            get {
+                return ((string)(this["FifthSetupExpertise"]));
+            }
+            set {
+                this["FifthSetupExpertise"] = value;
             }
         }
     }

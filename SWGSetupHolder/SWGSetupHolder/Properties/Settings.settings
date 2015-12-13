@@ -14,10 +14,6 @@
     <Setting Name="FirstWeaponExotics" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">
-                </Value>
-    </Setting>
     <Setting Name="SecondSetupName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
@@ -28,6 +24,43 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="FifthSetupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">
+                </Value>
+    </Setting>
+    <Setting Name="SelectedIndex" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FirstSetupProfession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SecondSetupProfession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThirdSetupProfession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FourthSetupProfession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FifthSetupProfession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FirstSetupExpertise" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SecondSetupExpertise" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThirdSetupExpertise" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FourthSetupExpertise" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FifthSetupExpertise" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>
