@@ -48,6 +48,7 @@
             this.WeaponInput.TabIndex = 31;
             this.WeaponInput.Text = "Weapon";
             this.WeaponInput.UseVisualStyleBackColor = true;
+            this.WeaponInput.Click += new System.EventHandler(this.WeaponInput_Click);
             // 
             // ArmorInput
             // 

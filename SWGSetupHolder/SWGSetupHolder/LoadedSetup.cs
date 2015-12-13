@@ -50,5 +50,11 @@ namespace SWGSetupHolder
                 ExpertiseInput.Text = Properties.Settings.Default.FifthSetupExpertise;
             }
         }
+
+        private void WeaponInput_Click(object sender, EventArgs e)
+        {
+            WeaponOutputInformation woi = new WeaponOutputInformation();
+            woi.ShowDialog();
+        }
     }
 }

@@ -177,5 +177,10 @@ namespace SWGSetupHolder
             WeaponInputInformation wii = new WeaponInputInformation();
             wii.ShowDialog();
         }
+
+        private void ArmorInput_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
