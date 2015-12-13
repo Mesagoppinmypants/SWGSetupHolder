@@ -27,6 +27,8 @@ namespace SWGSetupHolder
                         Properties.Settings.Default.FirstSetupName = SetupNameInput.Text;
                     }
                 }
+                Properties.Settings.Default.Save();
+                Dispose();
             }
 
             if (SetupNumberInput.Text == "2")
@@ -44,10 +46,66 @@ namespace SWGSetupHolder
                         Properties.Settings.Default.SecondSetupName = SetupNameInput.Text;
                     }
                 }
+                Properties.Settings.Default.Save();
+                Dispose();
             }
 
-            Properties.Settings.Default.Save();
-            Dispose();
+            if (SetupNumberInput.Text == "3")
+            {
+                if (Properties.Settings.Default.ThirdSetupName == "")
+                {
+                    Properties.Settings.Default.ThirdSetupName = SetupNameInput.Text;
+                }
+                else
+                {
+                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #3?", "Warning", MessageBoxButtons.YesNo);
+
+                    if (dr == DialogResult.Yes)
+                    {
+                        Properties.Settings.Default.ThirdSetupName = SetupNameInput.Text;
+                    }
+                }
+                Properties.Settings.Default.Save();
+                Dispose();
+            }
+
+            if (SetupNumberInput.Text == "4")
+            {
+                if (Properties.Settings.Default.FourthSetupName == "")
+                {
+                    Properties.Settings.Default.FourthSetupName = SetupNameInput.Text;
+                }
+                else
+                {
+                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #4?", "Warning", MessageBoxButtons.YesNo);
+
+                    if (dr == DialogResult.Yes)
+                    {
+                        Properties.Settings.Default.FourthSetupName = SetupNameInput.Text;
+                    }
+                }
+                Properties.Settings.Default.Save();
+                Dispose();
+            }
+
+            if (SetupNumberInput.Text == "5")
+            {
+                if (Properties.Settings.Default.FifthSetupName == "")
+                {
+                    Properties.Settings.Default.FifthSetupName = SetupNameInput.Text;
+                }
+                else
+                {
+                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #5?", "Warning", MessageBoxButtons.YesNo);
+
+                    if (dr == DialogResult.Yes)
+                    {
+                        Properties.Settings.Default.FifthSetupName = SetupNameInput.Text;
+                    }
+                }
+                Properties.Settings.Default.Save();
+                Dispose();
+            }
         }
 
         private void NewSetupPage_Load(object sender, EventArgs e)
