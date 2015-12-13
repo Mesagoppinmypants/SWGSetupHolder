@@ -10,13 +10,10 @@ namespace SWGSetupHolder
             InitializeComponent();
         }
 
-        //private string FirstSavedSetup = "";
-
         private void SavedSetupsPage_Load(object sender, EventArgs e)
         {
-            //FirstSavedSetup = Properties.Settings.Default.FirstSetupName;
-            string[] setupselection = new string[] { Properties.Settings.Default.FirstSetupName };
-            SetupSelection.Text = Properties.Settings.Default.FirstSetupName;
+            string[] setupselection = new string[] { Properties.Settings.Default.FirstSetupName.ToString() };
+            SetupSelection.Items.AddRange(setupselection);
         }
 
         private void LoadSetupButton_Click(object sender, EventArgs e)

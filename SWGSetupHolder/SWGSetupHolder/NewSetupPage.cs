@@ -12,7 +12,7 @@ namespace SWGSetupHolder
 
         private void SaveNewSetupButton_Click(object sender, EventArgs e)
         {
-            if (SetupNameInput.Text == "1")
+            if (SetupNumberInput.Text == "1")
             {
                 Properties.Settings.Default.FirstSetupName = SetupNameInput.Text;
             }
@@ -23,7 +23,17 @@ namespace SWGSetupHolder
 
         private void NewSetupPage_Load(object sender, EventArgs e)
         {
+            string FindUnusedIndex;
+            FindUnusedIndex = Properties.Settings.Default.FirstSetupName;
 
+            if (FindUnusedIndex == "")
+            {
+                SetupNumberInput.SelectedIndex = 0;
+            }
+            else
+            {
+                SetupNumberInput.SelectedIndex = 1;
+            }
         }
     }
 }
