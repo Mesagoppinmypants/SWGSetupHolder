@@ -76,7 +76,7 @@
             this.MaximizeBox = false;
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Setup Holder";
+            this.Text = "SWG Setup Holder";
             this.ResumeLayout(false);
 
         }
