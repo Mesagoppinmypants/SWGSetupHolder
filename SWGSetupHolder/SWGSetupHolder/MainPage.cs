@@ -44,9 +44,17 @@ namespace SWGSetupHolder
 
                 // Delete All Profession Data
                 Properties.Settings.Default.FirstSetupProfession = "";
+                Properties.Settings.Default.SecondSetupProfession = "";
+                Properties.Settings.Default.ThirdSetupProfession = "";
+                Properties.Settings.Default.FourthSetupProfession = "";
+                Properties.Settings.Default.FifthSetupProfession = "";
 
                 // Delete All Expertise Data
                 Properties.Settings.Default.FirstSetupExpertise = "";
+                Properties.Settings.Default.SecondSetupExpertise = "";
+                Properties.Settings.Default.ThirdSetupExpertise = "";
+                Properties.Settings.Default.FourthSetupExpertise = "";
+                Properties.Settings.Default.FifthSetupExpertise = "";
 
                 MessageBox.Show("All data has been successfully deleted.");
             }
