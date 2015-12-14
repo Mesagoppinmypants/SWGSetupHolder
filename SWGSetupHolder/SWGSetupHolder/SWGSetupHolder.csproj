@@ -122,6 +122,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SavedSetupsPage.resx">
       <DependentUpon>SavedSetupsPage.cs</DependentUpon>
@@ -147,6 +148,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="256.ico" />
+    <None Include="Resources\clonetrooper.png" />
+    <None Include="Resources\256.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
