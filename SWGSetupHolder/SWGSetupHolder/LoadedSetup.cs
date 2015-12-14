@@ -56,5 +56,11 @@ namespace SWGSetupHolder
             WeaponOutputInformation woi = new WeaponOutputInformation();
             woi.ShowDialog();
         }
+
+        private void ArmorInput_Click(object sender, EventArgs e)
+        {
+            ArmorOutputInformation aoi = new ArmorOutputInformation();
+            aoi.ShowDialog();
+        }
     }
 }

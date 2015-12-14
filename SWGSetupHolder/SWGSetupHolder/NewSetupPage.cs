@@ -182,7 +182,8 @@ namespace SWGSetupHolder
 
         private void ArmorInput_Click(object sender, EventArgs e)
         {
-
+            ArmorInputInformation aii = new ArmorInputInformation();
+            aii.ShowDialog();
         }
     }
 }

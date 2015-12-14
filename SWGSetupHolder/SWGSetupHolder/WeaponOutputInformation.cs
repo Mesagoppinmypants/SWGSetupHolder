@@ -14,7 +14,42 @@ namespace SWGSetupHolder
         {
             if (Properties.Settings.Default.CurrentSetupNumber == "1")
             {
-                WeaponNameInput.Text = Properties.Settings.Default.FirstWeaponName;
+                WeaponNameOutput.Text = Properties.Settings.Default.FirstWeaponName;
+                WeaponDPSOutput.Text = Properties.Settings.Default.FirstWeaponDPS;
+                WeaponElementOutput.Text = Properties.Settings.Default.FirstWeaponElement;
+                WeaponExoticsOutput.Text = Properties.Settings.Default.FirstWeaponExotics;
+            }
+
+            if (Properties.Settings.Default.CurrentSetupNumber == "2")
+            {
+                WeaponNameOutput.Text = Properties.Settings.Default.SecondWeaponName;
+                WeaponDPSOutput.Text = Properties.Settings.Default.SecondWeaponDPS;
+                WeaponElementOutput.Text = Properties.Settings.Default.SecondWeaponElement;
+                WeaponExoticsOutput.Text = Properties.Settings.Default.SecondWeaponExotics;
+            }
+
+            if (Properties.Settings.Default.CurrentSetupNumber == "3")
+            {
+                WeaponNameOutput.Text = Properties.Settings.Default.ThirdWeaponName;
+                WeaponDPSOutput.Text = Properties.Settings.Default.ThirdWeaponDPS;
+                WeaponElementOutput.Text = Properties.Settings.Default.ThirdWeaponElement;
+                WeaponExoticsOutput.Text = Properties.Settings.Default.ThirdWeaponExotics;
+            }
+
+            if (Properties.Settings.Default.CurrentSetupNumber == "4")
+            {
+                WeaponNameOutput.Text = Properties.Settings.Default.FourthWeaponName;
+                WeaponDPSOutput.Text = Properties.Settings.Default.FourthWeaponDPS;
+                WeaponElementOutput.Text = Properties.Settings.Default.FourthWeaponElement;
+                WeaponExoticsOutput.Text = Properties.Settings.Default.FourthWeaponExotics;
+            }
+
+            if (Properties.Settings.Default.CurrentSetupNumber == "5")
+            {
+                WeaponNameOutput.Text = Properties.Settings.Default.FifthWeaponName;
+                WeaponDPSOutput.Text = Properties.Settings.Default.FifthWeaponDPS;
+                WeaponElementOutput.Text = Properties.Settings.Default.FifthWeaponElement;
+                WeaponExoticsOutput.Text = Properties.Settings.Default.FifthWeaponExotics;
             }
         }
     }

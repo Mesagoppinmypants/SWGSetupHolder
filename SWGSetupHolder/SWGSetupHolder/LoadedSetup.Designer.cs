@@ -58,6 +58,7 @@
             this.ArmorInput.TabIndex = 30;
             this.ArmorInput.Text = "Armor";
             this.ArmorInput.UseVisualStyleBackColor = true;
+            this.ArmorInput.Click += new System.EventHandler(this.ArmorInput_Click);
             // 
             // label6
             // 
