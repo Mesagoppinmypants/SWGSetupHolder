@@ -46,8 +46,15 @@ namespace SWGSetupHolder
 
         private void LoadSetupButton_Click(object sender, EventArgs e)
         {
-            LoadedSetup ls = new LoadedSetup();
-            ls.ShowDialog();
+            if (SetupSelection.SelectedIndex >= 0)
+            {
+                LoadedSetup ls = new LoadedSetup();
+                ls.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please select a valid saved setup.", "Error");
+            }
         }
 
         private void SetupSelection_SelectedIndexChanged(object sender, EventArgs e)
@@ -76,6 +83,7 @@ namespace SWGSetupHolder
             {
                 Properties.Settings.Default.CurrentSetupNumber = "5";
             }
+            Properties.Settings.Default.Save();
         }
     }
 }

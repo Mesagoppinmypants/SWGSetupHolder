@@ -35,11 +35,19 @@ namespace SWGSetupHolder
             
             if (dr == DialogResult.Yes)
             {
+                // Delete All Name Data
                 Properties.Settings.Default.FirstSetupName = "";
                 Properties.Settings.Default.SecondSetupName = "";
                 Properties.Settings.Default.ThirdSetupName = "";
                 Properties.Settings.Default.FourthSetupName = "";
                 Properties.Settings.Default.FifthSetupName = "";
+
+                // Delete All Profession Data
+                Properties.Settings.Default.FirstSetupProfession = "";
+
+                // Delete All Expertise Data
+                Properties.Settings.Default.FirstSetupExpertise = "";
+
                 MessageBox.Show("All data has been successfully deleted.");
             }
         }

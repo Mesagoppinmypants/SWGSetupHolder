@@ -12,16 +12,16 @@ namespace SWGSetupHolder
 
         private void SaveFirstWeaponInfo()
         {
-            WeaponNameInput.Text = Properties.Settings.Default.FirstWeaponName;
-            WeaponDPSInput.Text = Properties.Settings.Default.FirstWeaponDPS;
-            WeaponElementInput.Text = Properties.Settings.Default.FirstWeaponElement;
-            WeaponExoticsInput.Text = Properties.Settings.Default.FirstWeaponExotics;
+            Properties.Settings.Default.FirstWeaponName = WeaponNameInput.Text;
+            Properties.Settings.Default.FirstWeaponDPS = WeaponDPSInput.Text;
+            Properties.Settings.Default.FirstWeaponElement = WeaponElementInput.Text;
+            Properties.Settings.Default.FirstWeaponExotics = WeaponExoticsInput.Text;
+            Properties.Settings.Default.Save();
         }
 
         private void SaveWeaponInfoButton_Click(object sender, EventArgs e)
         {
-            NewSetupPage nsp = new NewSetupPage();
-            if (nsp.SetupNumberInput.Text == "1")
+            if (Properties.Settings.Default.GetCurrentSetupNumber == "1")
             {
                 SaveFirstWeaponInfo();
             }

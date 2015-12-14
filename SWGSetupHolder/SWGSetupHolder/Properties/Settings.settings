@@ -26,10 +26,6 @@
     <Setting Name="FifthSetupName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">
-                </Value>
-    </Setting>
     <Setting Name="CurrentSetupNumber" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
@@ -61,6 +57,13 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="FifthSetupExpertise" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">
+                </Value>
+    </Setting>
+    <Setting Name="GetCurrentSetupNumber" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

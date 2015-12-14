@@ -122,18 +122,6 @@ namespace SWGSetupHolder.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FirstSetupName {
-            get {
-                return ((string)(this["FirstSetupName"]));
-            }
-            set {
-                this["FirstSetupName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string CurrentSetupNumber {
             get {
                 return ((string)(this["CurrentSetupNumber"]));
@@ -260,6 +248,30 @@ namespace SWGSetupHolder.Properties {
             }
             set {
                 this["FifthSetupExpertise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupName {
+            get {
+                return ((string)(this["FirstSetupName"]));
+            }
+            set {
+                this["FirstSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string GetCurrentSetupNumber {
+            get {
+                return ((string)(this["GetCurrentSetupNumber"]));
+            }
+            set {
+                this["GetCurrentSetupNumber"] = value;
             }
         }
     }

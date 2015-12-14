@@ -15,6 +15,8 @@ namespace SWGSetupHolder
             Properties.Settings.Default.FirstSetupName = SetupNameInput.Text;
             Properties.Settings.Default.FirstSetupProfession = ProfessionInput.Text;
             Properties.Settings.Default.FirstSetupExpertise = ExpertiseInput.Text;
+            Properties.Settings.Default.Save();
+            Dispose();
         }
 
         private void SecondSetupSave()
@@ -22,6 +24,8 @@ namespace SWGSetupHolder
             Properties.Settings.Default.SecondSetupName = SetupNameInput.Text;
             Properties.Settings.Default.SecondSetupProfession = ProfessionInput.Text;
             Properties.Settings.Default.SecondSetupExpertise = ExpertiseInput.Text;
+            Properties.Settings.Default.Save();
+            Dispose();
         }
 
         private void ThirdSetupSave()
@@ -29,6 +33,8 @@ namespace SWGSetupHolder
             Properties.Settings.Default.ThirdSetupName = SetupNameInput.Text;
             Properties.Settings.Default.ThirdSetupProfession = ProfessionInput.Text;
             Properties.Settings.Default.ThirdSetupExpertise = ExpertiseInput.Text;
+            Properties.Settings.Default.Save();
+            Dispose();
         }
 
         private void FourthSetupSave()
@@ -36,6 +42,8 @@ namespace SWGSetupHolder
             Properties.Settings.Default.FourthSetupName = SetupNameInput.Text;
             Properties.Settings.Default.FourthSetupProfession = ProfessionInput.Text;
             Properties.Settings.Default.FourthSetupExpertise = ExpertiseInput.Text;
+            Properties.Settings.Default.Save();
+            Dispose();
         }
 
         private void FifthSetupSave()
@@ -43,6 +51,8 @@ namespace SWGSetupHolder
             Properties.Settings.Default.FifthSetupName = SetupNameInput.Text;
             Properties.Settings.Default.FifthSetupProfession = ProfessionInput.Text;
             Properties.Settings.Default.FifthSetupExpertise = ExpertiseInput.Text;
+            Properties.Settings.Default.Save();
+            Dispose();
         }
 
         private void SaveNewSetupButton_Click(object sender, EventArgs e)
@@ -62,8 +72,6 @@ namespace SWGSetupHolder
                         FirstSetupSave();
                     }
                 }
-                Properties.Settings.Default.Save();
-                Dispose();
             }
 
             if (SetupNumberInput.Text == "2")
@@ -81,8 +89,6 @@ namespace SWGSetupHolder
                         SecondSetupSave();
                     }
                 }
-                Properties.Settings.Default.Save();
-                Dispose();
             }
 
             if (SetupNumberInput.Text == "3")
@@ -100,8 +106,6 @@ namespace SWGSetupHolder
                         ThirdSetupSave();
                     }
                 }
-                Properties.Settings.Default.Save();
-                Dispose();
             }
 
             if (SetupNumberInput.Text == "4")
@@ -119,8 +123,6 @@ namespace SWGSetupHolder
                         FourthSetupSave();
                     }
                 }
-                Properties.Settings.Default.Save();
-                Dispose();
             }
 
             if (SetupNumberInput.Text == "5")
@@ -138,8 +140,6 @@ namespace SWGSetupHolder
                         FifthSetupSave();
                     }
                 }
-                Properties.Settings.Default.Save();
-                Dispose();
             }
         }
 
@@ -169,6 +169,8 @@ namespace SWGSetupHolder
             {
                 SetupNumberInput.Text = "5";
             }
+
+            Properties.Settings.Default.GetCurrentSetupNumber = SetupNumberInput.Text;
 
         }
 
