@@ -88,6 +88,34 @@ namespace SWGSetupHolder
             }
             Dispose();
         }
+
+        private void WeaponInputInformation_Load(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.GetCurrentSetupNumber == "1")
+            {
+                WeaponNameInput.Text = Properties.Settings.Default.FirstWeaponName;
+                WeaponDPSInput.Text = Properties.Settings.Default.FirstWeaponDPS;
+                WeaponElementInput.Text = Properties.Settings.Default.FirstWeaponElement;
+                WeaponExoticsInput.Text = Properties.Settings.Default.FirstWeaponExotics;
+                WeaponElementDamageInput.Text = Properties.Settings.Default.FirstWeaponElementDamage;
+            }
+
+            if (Properties.Settings.Default.GetCurrentSetupNumber == "2")
+            {
+                WeaponNameInput.Text = Properties.Settings.Default.SecondWeaponName;
+                WeaponDPSInput.Text = Properties.Settings.Default.SecondWeaponDPS;
+                WeaponElementInput.Text = Properties.Settings.Default.SecondWeaponElement;
+                WeaponExoticsInput.Text = Properties.Settings.Default.SecondWeaponExotics;
+                WeaponElementDamageInput.Text = Properties.Settings.Default.SecondWeaponElementDamage;
+            }
+
+            if (Properties.Settings.Default.GetCurrentSetupNumber == "3")
+            {
+                WeaponNameInput.Text = Properties.Settings.Default.ThirdWeaponName;
+                WeaponDPSInput.Text = Properties.Settings.Default.ThirdWeaponDPS;
+                WeaponElementInput.Text = Properties.Settings.Default.ThirdWeaponElement;
+                WeaponExoticsInput.Text = Properties.Settings.Default.ThirdWeaponExotics;
+                WeaponElementDamageInput.Text = Properties.Settings.Default.ThirdWeaponElementDamage;
             }
 
             if (Properties.Settings.Default.GetCurrentSetupNumber == "4")
@@ -99,5 +127,14 @@ namespace SWGSetupHolder
                 WeaponElementDamageInput.Text = Properties.Settings.Default.FourthWeaponElementDamage;
             }
 
+            if (Properties.Settings.Default.GetCurrentSetupNumber == "5")
+            {
+                WeaponNameInput.Text = Properties.Settings.Default.FifthWeaponName;
+                WeaponDPSInput.Text = Properties.Settings.Default.FifthWeaponDPS;
+                WeaponElementInput.Text = Properties.Settings.Default.FifthWeaponElement;
+                WeaponExoticsInput.Text = Properties.Settings.Default.FifthWeaponExotics;
+                WeaponElementDamageInput.Text = Properties.Settings.Default.FifthWeaponElementDamage;
+            }
+        }
     }
 }
