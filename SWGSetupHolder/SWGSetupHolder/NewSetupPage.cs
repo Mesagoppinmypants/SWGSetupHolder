@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace SWGSetupHolder
@@ -184,6 +185,11 @@ namespace SWGSetupHolder
         {
             ArmorInputInformation aii = new ArmorInputInformation();
             aii.ShowDialog();
+        }
+
+        private void CreateExpertiseButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("http://www.oekevo.org/expertisecalculator/");
         }
     }
 }

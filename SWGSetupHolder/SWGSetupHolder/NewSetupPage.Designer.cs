@@ -40,6 +40,7 @@
             this.ArmorInput = new System.Windows.Forms.Button();
             this.WeaponInput = new System.Windows.Forms.Button();
             this.SetupNumberInput = new System.Windows.Forms.TextBox();
+            this.CreateExpertiseButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ProfessionInput
@@ -141,11 +142,22 @@
             this.SetupNumberInput.Size = new System.Drawing.Size(100, 20);
             this.SetupNumberInput.TabIndex = 33;
             // 
+            // CreateExpertiseButton
+            // 
+            this.CreateExpertiseButton.Location = new System.Drawing.Point(166, 125);
+            this.CreateExpertiseButton.Name = "CreateExpertiseButton";
+            this.CreateExpertiseButton.Size = new System.Drawing.Size(100, 23);
+            this.CreateExpertiseButton.TabIndex = 34;
+            this.CreateExpertiseButton.Text = "Create Expertise";
+            this.CreateExpertiseButton.UseVisualStyleBackColor = true;
+            this.CreateExpertiseButton.Click += new System.EventHandler(this.CreateExpertiseButton_Click);
+            // 
             // NewSetupPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.CreateExpertiseButton);
             this.Controls.Add(this.SetupNumberInput);
             this.Controls.Add(this.WeaponInput);
             this.Controls.Add(this.ArmorInput);
@@ -183,5 +195,6 @@
         private System.Windows.Forms.Button ArmorInput;
         private System.Windows.Forms.Button WeaponInput;
         public System.Windows.Forms.TextBox SetupNumberInput;
+        private System.Windows.Forms.Button CreateExpertiseButton;
     }
 }
