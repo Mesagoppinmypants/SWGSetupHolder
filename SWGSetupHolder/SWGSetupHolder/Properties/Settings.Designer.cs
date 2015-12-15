@@ -698,18 +698,6 @@ namespace SWGSetupHolder.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FirstSetupName {
-            get {
-                return ((string)(this["FirstSetupName"]));
-            }
-            set {
-                this["FirstSetupName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string FirstWeaponElementDamage {
             get {
                 return ((string)(this["FirstWeaponElementDamage"]));
@@ -764,6 +752,18 @@ namespace SWGSetupHolder.Properties {
             }
             set {
                 this["FifthWeaponElementDamage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupName {
+            get {
+                return ((string)(this["FirstSetupName"]));
+            }
+            set {
+                this["FirstSetupName"] = value;
             }
         }
     }
