@@ -160,6 +160,7 @@
             this.Name = "WeaponInputInformation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Weapon Setup";
+            this.Load += new System.EventHandler(this.WeaponInputInformation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

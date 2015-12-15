@@ -88,5 +88,16 @@ namespace SWGSetupHolder
             }
             Dispose();
         }
+            }
+
+            if (Properties.Settings.Default.GetCurrentSetupNumber == "4")
+            {
+                WeaponNameInput.Text = Properties.Settings.Default.FourthWeaponName;
+                WeaponDPSInput.Text = Properties.Settings.Default.FourthWeaponDPS;
+                WeaponElementInput.Text = Properties.Settings.Default.FourthWeaponElement;
+                WeaponExoticsInput.Text = Properties.Settings.Default.FourthWeaponExotics;
+                WeaponElementDamageInput.Text = Properties.Settings.Default.FourthWeaponElementDamage;
+            }
+
     }
 }
