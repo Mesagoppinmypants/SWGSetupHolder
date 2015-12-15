@@ -58,90 +58,98 @@ namespace SWGSetupHolder
 
         private void SaveNewSetupButton_Click(object sender, EventArgs e)
         {
-            if (SetupNumberInput.Text == "1")
+            if (SetupNameInput.Text != "")
             {
-                if (Properties.Settings.Default.FirstSetupName == "")
+                if (SetupNumberInput.Text == "1")
                 {
-                    FirstSetupSave();
-                }
-                else
-                {
-                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #1?", "Warning", MessageBoxButtons.YesNo);
-
-                    if (dr == DialogResult.Yes)
+                    if (Properties.Settings.Default.FirstSetupName == "")
                     {
                         FirstSetupSave();
                     }
-                }
-            }
+                    else
+                    {
+                        DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #1?", "Warning", MessageBoxButtons.YesNo);
 
-            if (SetupNumberInput.Text == "2")
-            {
-                if (Properties.Settings.Default.SecondSetupName == "")
-                {
-                    SecondSetupSave();
+                        if (dr == DialogResult.Yes)
+                        {
+                            FirstSetupSave();
+                        }
+                    }
                 }
-                else
-                {
-                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #2?", "Warning", MessageBoxButtons.YesNo);
 
-                    if (dr == DialogResult.Yes)
+                if (SetupNumberInput.Text == "2")
+                {
+                    if (Properties.Settings.Default.SecondSetupName == "")
                     {
                         SecondSetupSave();
                     }
-                }
-            }
+                    else
+                    {
+                        DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #2?", "Warning", MessageBoxButtons.YesNo);
 
-            if (SetupNumberInput.Text == "3")
-            {
-                if (Properties.Settings.Default.ThirdSetupName == "")
-                {
-                    ThirdSetupSave();
+                        if (dr == DialogResult.Yes)
+                        {
+                            SecondSetupSave();
+                        }
+                    }
                 }
-                else
-                {
-                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #3?", "Warning", MessageBoxButtons.YesNo);
 
-                    if (dr == DialogResult.Yes)
+                if (SetupNumberInput.Text == "3")
+                {
+                    if (Properties.Settings.Default.ThirdSetupName == "")
                     {
                         ThirdSetupSave();
                     }
-                }
-            }
+                    else
+                    {
+                        DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #3?", "Warning", MessageBoxButtons.YesNo);
 
-            if (SetupNumberInput.Text == "4")
-            {
-                if (Properties.Settings.Default.FourthSetupName == "")
-                {
-                    FourthSetupSave();
+                        if (dr == DialogResult.Yes)
+                        {
+                            ThirdSetupSave();
+                        }
+                    }
                 }
-                else
-                {
-                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #4?", "Warning", MessageBoxButtons.YesNo);
 
-                    if (dr == DialogResult.Yes)
+                if (SetupNumberInput.Text == "4")
+                {
+                    if (Properties.Settings.Default.FourthSetupName == "")
                     {
                         FourthSetupSave();
                     }
-                }
-            }
+                    else
+                    {
+                        DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #4?", "Warning", MessageBoxButtons.YesNo);
 
-            if (SetupNumberInput.Text == "5")
-            {
-                if (Properties.Settings.Default.FifthSetupName == "")
-                {
-                    FifthSetupSave();
+                        if (dr == DialogResult.Yes)
+                        {
+                            FourthSetupSave();
+                        }
+                    }
                 }
-                else
-                {
-                    DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #5?", "Warning", MessageBoxButtons.YesNo);
 
-                    if (dr == DialogResult.Yes)
+                if (SetupNumberInput.Text == "5")
+                {
+                    if (Properties.Settings.Default.FifthSetupName == "")
                     {
                         FifthSetupSave();
                     }
+                    else
+                    {
+                        DialogResult dr = MessageBox.Show("Are you sure you want to overwrite setup #5?", "Warning", MessageBoxButtons.YesNo);
+
+                        if (dr == DialogResult.Yes)
+                        {
+                            FifthSetupSave();
+                        }
+                    }
                 }
             }
+            else
+            {
+                MessageBox.Show("Error: Please enter a valid setup name.", "Error Saving");
+            }
+            
         }
 
         private void NewSetupPage_Load(object sender, EventArgs e)
