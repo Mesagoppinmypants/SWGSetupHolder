@@ -38,6 +38,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.WeaponExoticsInput = new System.Windows.Forms.TextBox();
             this.SaveWeaponInfoButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.WeaponElementDamageInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // WeaponDPSInput
@@ -110,7 +112,7 @@
             // 
             // SaveWeaponInfoButton
             // 
-            this.SaveWeaponInfoButton.Location = new System.Drawing.Point(98, 226);
+            this.SaveWeaponInfoButton.Location = new System.Drawing.Point(105, 226);
             this.SaveWeaponInfoButton.Name = "SaveWeaponInfoButton";
             this.SaveWeaponInfoButton.Size = new System.Drawing.Size(75, 23);
             this.SaveWeaponInfoButton.TabIndex = 18;
@@ -118,11 +120,30 @@
             this.SaveWeaponInfoButton.UseVisualStyleBackColor = true;
             this.SaveWeaponInfoButton.Click += new System.EventHandler(this.SaveWeaponInfoButton_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label5.Location = new System.Drawing.Point(44, 153);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(197, 20);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Weapon Element Damage";
+            // 
+            // WeaponElementDamageInput
+            // 
+            this.WeaponElementDamageInput.Location = new System.Drawing.Point(92, 176);
+            this.WeaponElementDamageInput.Name = "WeaponElementDamageInput";
+            this.WeaponElementDamageInput.Size = new System.Drawing.Size(100, 20);
+            this.WeaponElementDamageInput.TabIndex = 19;
+            // 
             // WeaponInputInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.WeaponElementDamageInput);
             this.Controls.Add(this.SaveWeaponInfoButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.WeaponExoticsInput);
@@ -139,7 +160,6 @@
             this.Name = "WeaponInputInformation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Weapon Setup";
-            this.Load += new System.EventHandler(this.WeaponInputInformation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,5 +176,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox WeaponExoticsInput;
         private System.Windows.Forms.Button SaveWeaponInfoButton;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox WeaponElementDamageInput;
     }
 }

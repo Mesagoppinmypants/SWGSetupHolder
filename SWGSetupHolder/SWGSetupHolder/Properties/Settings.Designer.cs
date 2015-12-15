@@ -254,18 +254,6 @@ namespace SWGSetupHolder.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FirstSetupName {
-            get {
-                return ((string)(this["FirstSetupName"]));
-            }
-            set {
-                this["FirstSetupName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string GetCurrentSetupNumber {
             get {
                 return ((string)(this["GetCurrentSetupNumber"]));
@@ -704,6 +692,78 @@ namespace SWGSetupHolder.Properties {
             }
             set {
                 this["FifthArmorExotics"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupName {
+            get {
+                return ((string)(this["FirstSetupName"]));
+            }
+            set {
+                this["FirstSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstWeaponElementDamage {
+            get {
+                return ((string)(this["FirstWeaponElementDamage"]));
+            }
+            set {
+                this["FirstWeaponElementDamage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondWeaponElementDamage {
+            get {
+                return ((string)(this["SecondWeaponElementDamage"]));
+            }
+            set {
+                this["SecondWeaponElementDamage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ThirdWeaponElementDamage {
+            get {
+                return ((string)(this["ThirdWeaponElementDamage"]));
+            }
+            set {
+                this["ThirdWeaponElementDamage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FourthWeaponElementDamage {
+            get {
+                return ((string)(this["FourthWeaponElementDamage"]));
+            }
+            set {
+                this["FourthWeaponElementDamage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FifthWeaponElementDamage {
+            get {
+                return ((string)(this["FifthWeaponElementDamage"]));
+            }
+            set {
+                this["FifthWeaponElementDamage"] = value;
             }
         }
     }

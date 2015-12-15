@@ -37,6 +37,8 @@
             this.WeaponNameOutput = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.WeaponDPSOutput = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.WeaponElementDamageInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label4
@@ -111,11 +113,30 @@
             this.WeaponDPSOutput.Size = new System.Drawing.Size(100, 20);
             this.WeaponDPSOutput.TabIndex = 18;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label5.Location = new System.Drawing.Point(44, 160);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(197, 20);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Weapon Element Damage";
+            // 
+            // WeaponElementDamageInput
+            // 
+            this.WeaponElementDamageInput.Location = new System.Drawing.Point(92, 183);
+            this.WeaponElementDamageInput.Name = "WeaponElementDamageInput";
+            this.WeaponElementDamageInput.Size = new System.Drawing.Size(100, 20);
+            this.WeaponElementDamageInput.TabIndex = 26;
+            // 
             // WeaponOutputInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.WeaponElementDamageInput);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.WeaponExoticsOutput);
             this.Controls.Add(this.label3);
@@ -147,5 +168,7 @@
         private System.Windows.Forms.TextBox WeaponNameOutput;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox WeaponDPSOutput;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox WeaponElementDamageInput;
     }
 }

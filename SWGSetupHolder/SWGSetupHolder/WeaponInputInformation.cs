@@ -16,6 +16,7 @@ namespace SWGSetupHolder
             Properties.Settings.Default.FirstWeaponDPS = WeaponDPSInput.Text;
             Properties.Settings.Default.FirstWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.FirstWeaponExotics = WeaponExoticsInput.Text;
+            Properties.Settings.Default.FirstWeaponElementDamage = WeaponElementDamageInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -25,6 +26,7 @@ namespace SWGSetupHolder
             Properties.Settings.Default.SecondWeaponDPS = WeaponDPSInput.Text;
             Properties.Settings.Default.SecondWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.SecondWeaponExotics = WeaponExoticsInput.Text;
+            Properties.Settings.Default.SecondWeaponElementDamage = WeaponElementDamageInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -34,6 +36,7 @@ namespace SWGSetupHolder
             Properties.Settings.Default.ThirdWeaponDPS = WeaponDPSInput.Text;
             Properties.Settings.Default.ThirdWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.ThirdWeaponExotics = WeaponExoticsInput.Text;
+            Properties.Settings.Default.ThirdWeaponElementDamage = WeaponElementDamageInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -43,6 +46,7 @@ namespace SWGSetupHolder
             Properties.Settings.Default.FourthWeaponDPS = WeaponDPSInput.Text;
             Properties.Settings.Default.FourthWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.FourthWeaponExotics = WeaponExoticsInput.Text;
+            Properties.Settings.Default.FourthWeaponElementDamage = WeaponElementDamageInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -52,6 +56,7 @@ namespace SWGSetupHolder
             Properties.Settings.Default.FifthWeaponDPS = WeaponDPSInput.Text;
             Properties.Settings.Default.FifthWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.FifthWeaponExotics = WeaponExoticsInput.Text;
+            Properties.Settings.Default.FifthWeaponElementDamage = WeaponElementDamageInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -82,11 +87,6 @@ namespace SWGSetupHolder
                 SaveFifthWeaponInfo();
             }
             Dispose();
-        }
-
-        private void WeaponInputInformation_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

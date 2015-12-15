@@ -59,10 +59,6 @@
     <Setting Name="FifthSetupExpertise" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">
-                </Value>
-    </Setting>
     <Setting Name="GetCurrentSetupNumber" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
@@ -172,6 +168,25 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="FifthArmorExotics" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">
+                </Value>
+    </Setting>
+    <Setting Name="FirstWeaponElementDamage" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SecondWeaponElementDamage" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThirdWeaponElementDamage" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FourthWeaponElementDamage" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FifthWeaponElementDamage" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>
