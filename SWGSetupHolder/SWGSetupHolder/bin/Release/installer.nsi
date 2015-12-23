@@ -58,8 +58,6 @@ Section "Desktop Shortcut" DeskShort
 	CreateShortCut "$DESKTOP\Trooper Setup Organizer.lnk" "$INSTDIR\TrooperSetupOrganizer.exe"
 SectionEnd
 
-Section ""
-
 ;--------------------------------
 ;Uninstaller Section
 
