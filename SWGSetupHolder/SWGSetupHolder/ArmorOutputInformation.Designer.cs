@@ -53,6 +53,7 @@
             // 
             this.ArmorExoticsOutput.Location = new System.Drawing.Point(168, 107);
             this.ArmorExoticsOutput.Name = "ArmorExoticsOutput";
+            this.ArmorExoticsOutput.ReadOnly = true;
             this.ArmorExoticsOutput.Size = new System.Drawing.Size(100, 20);
             this.ArmorExoticsOutput.TabIndex = 34;
             // 
@@ -70,6 +71,7 @@
             // 
             this.ArmorProtectionOutput.Location = new System.Drawing.Point(15, 107);
             this.ArmorProtectionOutput.Name = "ArmorProtectionOutput";
+            this.ArmorProtectionOutput.ReadOnly = true;
             this.ArmorProtectionOutput.Size = new System.Drawing.Size(100, 20);
             this.ArmorProtectionOutput.TabIndex = 32;
             // 
@@ -87,6 +89,7 @@
             // 
             this.ArmorNameOutput.Location = new System.Drawing.Point(15, 33);
             this.ArmorNameOutput.Name = "ArmorNameOutput";
+            this.ArmorNameOutput.ReadOnly = true;
             this.ArmorNameOutput.Size = new System.Drawing.Size(100, 20);
             this.ArmorNameOutput.TabIndex = 30;
             // 
@@ -104,6 +107,7 @@
             // 
             this.ArmorTypeOutput.Location = new System.Drawing.Point(169, 33);
             this.ArmorTypeOutput.Name = "ArmorTypeOutput";
+            this.ArmorTypeOutput.ReadOnly = true;
             this.ArmorTypeOutput.Size = new System.Drawing.Size(100, 20);
             this.ArmorTypeOutput.TabIndex = 28;
             // 
