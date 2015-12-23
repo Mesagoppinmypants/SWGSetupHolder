@@ -15,7 +15,7 @@
   InstallDir "$PROGRAMFILES\Trooper Setup Organizer"
 
   ;Request application privileges for Windows Vista
-  RequestExecutionLevel user
+  RequestExecutionLevel admin
 
 ;--------------------------------
 ;Interface Settings
@@ -42,7 +42,7 @@
 ;--------------------------------
 ;Installer Sections
 
-Section "Trooper Setup Organizer" SecDummy
+Section "Trooper Setup Organizer" MainProgram
 
   SetOutPath "$INSTDIR"
   
@@ -51,7 +51,6 @@ Section "Trooper Setup Organizer" SecDummy
   
   ;Create uninstaller
   WriteUninstaller "$INSTDIR\Uninstall.exe"
-
 SectionEnd
 
 Section "Desktop Shortcut" DeskShort
