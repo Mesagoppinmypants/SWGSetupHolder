@@ -39,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ProfessionInput = new System.Windows.Forms.TextBox();
             this.SetupNumberInput = new System.Windows.Forms.TextBox();
+            this.EditButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WeaponInput
@@ -133,11 +134,22 @@
             this.SetupNumberInput.Size = new System.Drawing.Size(100, 20);
             this.SetupNumberInput.TabIndex = 32;
             // 
+            // EditButton
+            // 
+            this.EditButton.Location = new System.Drawing.Point(105, 226);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.Size = new System.Drawing.Size(75, 23);
+            this.EditButton.TabIndex = 33;
+            this.EditButton.Text = "Edit";
+            this.EditButton.UseVisualStyleBackColor = true;
+            this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
+            // 
             // LoadedSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.EditButton);
             this.Controls.Add(this.SetupNumberInput);
             this.Controls.Add(this.WeaponInput);
             this.Controls.Add(this.ArmorInput);
@@ -173,5 +185,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox ProfessionInput;
         public System.Windows.Forms.TextBox SetupNumberInput;
+        private System.Windows.Forms.Button EditButton;
     }
 }

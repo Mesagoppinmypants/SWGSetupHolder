@@ -152,6 +152,7 @@
             this.Name = "WeaponOutputInformation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Weapon Setup";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WeaponOutputInformation_FormClosing);
             this.Load += new System.EventHandler(this.WeaponOutputInformation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

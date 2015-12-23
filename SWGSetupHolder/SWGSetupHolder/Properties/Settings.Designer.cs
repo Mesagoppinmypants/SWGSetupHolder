@@ -766,5 +766,17 @@ namespace SWGSetupHolder.Properties {
                 this["FirstSetupName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EditButtonEnabled {
+            get {
+                return ((bool)(this["EditButtonEnabled"]));
+            }
+            set {
+                this["EditButtonEnabled"] = value;
+            }
+        }
     }
 }
