@@ -1,4 +1,4 @@
-﻿namespace SWGSetupHolder
+﻿namespace TrooperSetupOrganizer
 {
     partial class WeaponInputInformation
     {

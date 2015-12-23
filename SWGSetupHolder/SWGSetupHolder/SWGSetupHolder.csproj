@@ -7,8 +7,8 @@
     <ProjectGuid>{67C737C8-5D27-4EC0-9A56-DE56D041D57B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SWGSetupHolder</RootNamespace>
-    <AssemblyName>SWGSetupHolder</AssemblyName>
+    <RootNamespace>TrooperSetupOrganizer</RootNamespace>
+    <AssemblyName>TrooperSetupOrganizer</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

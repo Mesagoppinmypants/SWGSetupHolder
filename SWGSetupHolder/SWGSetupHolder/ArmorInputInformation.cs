@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SWGSetupHolder
+namespace TrooperSetupOrganizer
 {
     public partial class ArmorInputInformation : Form
     {
