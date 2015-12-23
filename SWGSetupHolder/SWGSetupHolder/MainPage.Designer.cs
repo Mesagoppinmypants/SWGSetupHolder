@@ -106,7 +106,7 @@
             this.MaximizeBox = false;
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SWG Setup Organizer";
+            this.Text = "Trooper Setup Organizer";
             this.ResumeLayout(false);
             this.PerformLayout();
 
