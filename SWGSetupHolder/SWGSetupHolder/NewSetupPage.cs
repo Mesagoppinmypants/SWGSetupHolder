@@ -58,7 +58,7 @@ namespace SWGSetupHolder
 
         private void SaveNewSetupButton_Click(object sender, EventArgs e)
         {
-            if (SetupNameInput.Text != "")
+            if (SetupNameInput.Text != "" && SetupNameInput.Text != Properties.Settings.Default.FirstSetupName && SetupNameInput.Text != Properties.Settings.Default.SecondSetupName && SetupNameInput.Text != Properties.Settings.Default.ThirdSetupName && SetupNameInput.Text != Properties.Settings.Default.FourthSetupName && SetupNameInput.Text != Properties.Settings.Default.FifthSetupName)
             {
                 if (SetupNumberInput.Text == "1")
                 {
@@ -147,7 +147,7 @@ namespace SWGSetupHolder
             }
             else
             {
-                MessageBox.Show("Error: Please enter a valid setup name.", "Error Saving");
+                MessageBox.Show("Error: Please enter a valid setup name. The current name that you are trying to save the setup as may be already in use.", "Error Saving");
             }
             
         }
