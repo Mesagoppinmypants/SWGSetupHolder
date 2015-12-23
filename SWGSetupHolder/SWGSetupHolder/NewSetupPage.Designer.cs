@@ -37,8 +37,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.ExpertiseInput = new System.Windows.Forms.TextBox();
-            this.ArmorInput = new System.Windows.Forms.Button();
-            this.WeaponInput = new System.Windows.Forms.Button();
+            this.WearablesInput = new System.Windows.Forms.Button();
+            this.BuffsInput = new System.Windows.Forms.Button();
             this.SetupNumberInput = new System.Windows.Forms.TextBox();
             this.CreateExpertiseButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -114,25 +114,25 @@
             this.ExpertiseInput.Size = new System.Drawing.Size(100, 20);
             this.ExpertiseInput.TabIndex = 18;
             // 
-            // ArmorInput
+            // WearablesInput
             // 
-            this.ArmorInput.Location = new System.Drawing.Point(16, 163);
-            this.ArmorInput.Name = "ArmorInput";
-            this.ArmorInput.Size = new System.Drawing.Size(95, 35);
-            this.ArmorInput.TabIndex = 20;
-            this.ArmorInput.Text = "Armor";
-            this.ArmorInput.UseVisualStyleBackColor = true;
-            this.ArmorInput.Click += new System.EventHandler(this.ArmorInput_Click);
+            this.WearablesInput.Location = new System.Drawing.Point(16, 163);
+            this.WearablesInput.Name = "WearablesInput";
+            this.WearablesInput.Size = new System.Drawing.Size(95, 35);
+            this.WearablesInput.TabIndex = 20;
+            this.WearablesInput.Text = "Wearables";
+            this.WearablesInput.UseVisualStyleBackColor = true;
+            this.WearablesInput.Click += new System.EventHandler(this.WearablesInput_Click);
             // 
-            // WeaponInput
+            // BuffsInput
             // 
-            this.WeaponInput.Location = new System.Drawing.Point(171, 163);
-            this.WeaponInput.Name = "WeaponInput";
-            this.WeaponInput.Size = new System.Drawing.Size(95, 35);
-            this.WeaponInput.TabIndex = 21;
-            this.WeaponInput.Text = "Weapon";
-            this.WeaponInput.UseVisualStyleBackColor = true;
-            this.WeaponInput.Click += new System.EventHandler(this.WeaponInput_Click);
+            this.BuffsInput.Location = new System.Drawing.Point(171, 163);
+            this.BuffsInput.Name = "BuffsInput";
+            this.BuffsInput.Size = new System.Drawing.Size(95, 35);
+            this.BuffsInput.TabIndex = 21;
+            this.BuffsInput.Text = "Buffs";
+            this.BuffsInput.UseVisualStyleBackColor = true;
+            this.BuffsInput.Click += new System.EventHandler(this.WeaponInput_Click);
             // 
             // SetupNumberInput
             // 
@@ -159,8 +159,8 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.CreateExpertiseButton);
             this.Controls.Add(this.SetupNumberInput);
-            this.Controls.Add(this.WeaponInput);
-            this.Controls.Add(this.ArmorInput);
+            this.Controls.Add(this.BuffsInput);
+            this.Controls.Add(this.WearablesInput);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.ExpertiseInput);
             this.Controls.Add(this.label3);
@@ -192,8 +192,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox ExpertiseInput;
-        private System.Windows.Forms.Button ArmorInput;
-        private System.Windows.Forms.Button WeaponInput;
+        private System.Windows.Forms.Button WearablesInput;
+        private System.Windows.Forms.Button BuffsInput;
         public System.Windows.Forms.TextBox SetupNumberInput;
         private System.Windows.Forms.Button CreateExpertiseButton;
     }

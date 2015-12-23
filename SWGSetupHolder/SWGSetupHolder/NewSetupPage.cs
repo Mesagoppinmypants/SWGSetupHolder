@@ -185,14 +185,13 @@ namespace TrooperSetupOrganizer
 
         private void WeaponInput_Click(object sender, EventArgs e)
         {
-            WeaponInputInformation wii = new WeaponInputInformation();
-            wii.ShowDialog();
+            MessageBox.Show("Sorry, but this function isn't implemented yet.","Error");
         }
 
-        private void ArmorInput_Click(object sender, EventArgs e)
+        private void WearablesInput_Click(object sender, EventArgs e)
         {
-            ArmorInputInformation aii = new ArmorInputInformation();
-            aii.ShowDialog();
+            WearablesForm wf = new WearablesForm();
+            wf.ShowDialog();
         }
 
         private void CreateExpertiseButton_Click(object sender, EventArgs e)

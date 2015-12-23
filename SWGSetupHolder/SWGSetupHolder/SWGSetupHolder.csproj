@@ -81,6 +81,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RobeInputInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RobeInputInformation.Designer.cs">
+      <DependentUpon>RobeInputInformation.cs</DependentUpon>
+    </Compile>
     <Compile Include="SavedSetupsPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="WeaponOutputInformation.Designer.cs">
       <DependentUpon>WeaponOutputInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WearablesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WearablesForm.Designer.cs">
+      <DependentUpon>WearablesForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ArmorInputInformation.resx">
       <DependentUpon>ArmorInputInformation.cs</DependentUpon>
@@ -124,6 +136,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RobeInputInformation.resx">
+      <DependentUpon>RobeInputInformation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SavedSetupsPage.resx">
       <DependentUpon>SavedSetupsPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,9 +148,13 @@
     <EmbeddedResource Include="WeaponOutputInformation.resx">
       <DependentUpon>WeaponOutputInformation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WearablesForm.resx">
+      <DependentUpon>WearablesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
