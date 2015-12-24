@@ -17,6 +17,25 @@ namespace TrooperSetupOrganizer
                 RobeCheckbox.Checked = false;
                 ArmorInputButton.Text = "Armor";
             }
+
+            if (!ArmorCheckbox.Checked && !RobeCheckbox.Checked)
+            {
+                ArmorCheckbox.Checked = true;
+            }
+        }
+
+        private void RobeCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RobeCheckbox.Checked)
+            {
+                ArmorCheckbox.Checked = false;
+                ArmorInputButton.Text = "Robe/Cloak";
+            }
+
+            if (!ArmorCheckbox.Checked && !RobeCheckbox.Checked)
+            {
+                RobeCheckbox.Checked = true;
+            }
         }
 
         private void ArmorInputButton_Click(object sender, EventArgs e)
@@ -37,15 +56,6 @@ namespace TrooperSetupOrganizer
         {
             WeaponInputInformation wii = new WeaponInputInformation();
             wii.ShowDialog();
-        }
-
-        private void RobeCheckbox_CheckedChanged(object sender, EventArgs e)
-        {
-            if (RobeCheckbox.Checked)
-            {
-                ArmorCheckbox.Checked = false;
-                ArmorInputButton.Text = "Robe/Cloak";
-            }
         }
 
         private void ClothingInputButton_Click(object sender, EventArgs e)
