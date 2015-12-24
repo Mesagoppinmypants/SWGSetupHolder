@@ -770,18 +770,6 @@ namespace TrooperSetupOrganizer.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FirstSetupName {
-            get {
-                return ((string)(this["FirstSetupName"]));
-            }
-            set {
-                this["FirstSetupName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string FirstRobeName {
             get {
                 return ((string)(this["FirstRobeName"]));
@@ -836,6 +824,78 @@ namespace TrooperSetupOrganizer.Properties {
             }
             set {
                 this["FifthRobeName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSetupName {
+            get {
+                return ((string)(this["FirstSetupName"]));
+            }
+            set {
+                this["FirstSetupName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstSaberCrystal {
+            get {
+                return ((string)(this["FirstSaberCrystal"]));
+            }
+            set {
+                this["FirstSaberCrystal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondSaberCrystal {
+            get {
+                return ((string)(this["SecondSaberCrystal"]));
+            }
+            set {
+                this["SecondSaberCrystal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ThirdSaberCrystal {
+            get {
+                return ((string)(this["ThirdSaberCrystal"]));
+            }
+            set {
+                this["ThirdSaberCrystal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FourthSaberCrystal {
+            get {
+                return ((string)(this["FourthSaberCrystal"]));
+            }
+            set {
+                this["FourthSaberCrystal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FifthSaberCrystal {
+            get {
+                return ((string)(this["FifthSaberCrystal"]));
+            }
+            set {
+                this["FifthSaberCrystal"] = value;
             }
         }
     }

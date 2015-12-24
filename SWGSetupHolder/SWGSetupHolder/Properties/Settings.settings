@@ -188,10 +188,6 @@
     <Setting Name="EditButtonEnabled" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">
-                </Value>
-    </Setting>
     <Setting Name="FirstRobeName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
@@ -205,6 +201,25 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="FifthRobeName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FirstSetupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">
+                </Value>
+    </Setting>
+    <Setting Name="FirstSaberCrystal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SecondSaberCrystal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThirdSaberCrystal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FourthSaberCrystal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FifthSaberCrystal" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

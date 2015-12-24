@@ -17,6 +17,7 @@ namespace TrooperSetupOrganizer
             Properties.Settings.Default.FirstWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.FirstWeaponExotics = WeaponExoticsInput.Text;
             Properties.Settings.Default.FirstWeaponElementDamage = WeaponElementDamageInput.Text;
+            Properties.Settings.Default.FirstSaberCrystal = LightsaberCrystalInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -27,6 +28,7 @@ namespace TrooperSetupOrganizer
             Properties.Settings.Default.SecondWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.SecondWeaponExotics = WeaponExoticsInput.Text;
             Properties.Settings.Default.SecondWeaponElementDamage = WeaponElementDamageInput.Text;
+            Properties.Settings.Default.SecondSaberCrystal = LightsaberCrystalInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -37,6 +39,7 @@ namespace TrooperSetupOrganizer
             Properties.Settings.Default.ThirdWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.ThirdWeaponExotics = WeaponExoticsInput.Text;
             Properties.Settings.Default.ThirdWeaponElementDamage = WeaponElementDamageInput.Text;
+            Properties.Settings.Default.ThirdSaberCrystal = LightsaberCrystalInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -47,6 +50,7 @@ namespace TrooperSetupOrganizer
             Properties.Settings.Default.FourthWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.FourthWeaponExotics = WeaponExoticsInput.Text;
             Properties.Settings.Default.FourthWeaponElementDamage = WeaponElementDamageInput.Text;
+            Properties.Settings.Default.FourthSaberCrystal = LightsaberCrystalInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -57,6 +61,7 @@ namespace TrooperSetupOrganizer
             Properties.Settings.Default.FifthWeaponElement = WeaponElementInput.Text;
             Properties.Settings.Default.FifthWeaponExotics = WeaponExoticsInput.Text;
             Properties.Settings.Default.FifthWeaponElementDamage = WeaponElementDamageInput.Text;
+            Properties.Settings.Default.FifthSaberCrystal = LightsaberCrystalInput.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -91,6 +96,8 @@ namespace TrooperSetupOrganizer
 
         private void WeaponInputInformation_Load(object sender, EventArgs e)
         {
+            LightsaberCrystalLabel.Visible = false;
+            LightsaberCrystalInput.Visible = false;
             if (Properties.Settings.Default.GetCurrentSetupNumber == "1")
             {
                 WeaponNameInput.Text = Properties.Settings.Default.FirstWeaponName;
@@ -134,6 +141,20 @@ namespace TrooperSetupOrganizer
                 WeaponElementInput.Text = Properties.Settings.Default.FifthWeaponElement;
                 WeaponExoticsInput.Text = Properties.Settings.Default.FifthWeaponExotics;
                 WeaponElementDamageInput.Text = Properties.Settings.Default.FifthWeaponElementDamage;
+            }
+        }
+
+        private void LightsaberCrystalCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (LightsaberCrystalCheckbox.Checked == true)
+            {
+                LightsaberCrystalLabel.Visible = true;
+                LightsaberCrystalInput.Visible = true;
+            }
+            else
+            {
+                LightsaberCrystalLabel.Visible = false;
+                LightsaberCrystalInput.Visible = false;
             }
         }
     }
