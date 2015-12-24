@@ -46,7 +46,7 @@
             // RobeNameLabel
             // 
             this.RobeNameLabel.AutoSize = true;
-            this.RobeNameLabel.Location = new System.Drawing.Point(102, 109);
+            this.RobeNameLabel.Location = new System.Drawing.Point(103, 109);
             this.RobeNameLabel.Name = "RobeNameLabel";
             this.RobeNameLabel.Size = new System.Drawing.Size(64, 13);
             this.RobeNameLabel.TabIndex = 1;

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace TrooperSetupOrganizer
@@ -15,7 +16,8 @@ namespace TrooperSetupOrganizer
             if (RobeCheckbox.Checked)
             {
                 CloakCheckbox.Checked = false;
-                RobeNameLabel.Text = "Robe";
+                RobeNameLabel.Location = new Point(103, 109);
+                RobeNameLabel.Text = "Robe Name";
                 HoodDownCheckbox.Visible = false;
             }
 
@@ -30,7 +32,8 @@ namespace TrooperSetupOrganizer
             if (CloakCheckbox.Checked)
             {
                 RobeCheckbox.Checked = false;
-                RobeNameLabel.Text = "Cloak (Hood Up)";
+                RobeNameLabel.Location = new Point(80, 109);
+                RobeNameLabel.Text = "Cloak Name (Hood Up)";
                 HoodDownCheckbox.Visible = true;   
             }
 
@@ -49,11 +52,13 @@ namespace TrooperSetupOrganizer
         {
             if (HoodDownCheckbox.Checked)
             {
-                RobeNameLabel.Text = "Cloak (Hood Down)";
+                RobeNameLabel.Location = new Point(80, 109);
+                RobeNameLabel.Text = "Cloak Name (Hood Down)";
             }
             else
             {
-                RobeNameLabel.Text = "Cloak (Hood Up)";
+                RobeNameLabel.Location = new Point(80, 109);
+                RobeNameLabel.Text = "Cloak Name (Hood Up)";
             }
         }
 
