@@ -19,6 +19,16 @@ namespace TrooperSetupOrganizer
                 WeaponElementOutput.Text = Properties.Settings.Default.FirstWeaponElement;
                 WeaponExoticsOutput.Text = Properties.Settings.Default.FirstWeaponExotics;
                 WeaponElementDamageOutput.Text = Properties.Settings.Default.FirstWeaponElementDamage;
+                LightsaberCrystalOutput.Text = Properties.Settings.Default.FirstSaberCrystal;
+
+                if (Properties.Settings.Default.FirstSaberCrystal != "")
+                {
+                    LightsaberCrystalOutput.Visible = true;
+                }
+                else
+                {
+                    LightsaberCrystalOutput.Visible = false;
+                }
             }
 
             if (Properties.Settings.Default.CurrentSetupNumber == "2")
@@ -28,6 +38,16 @@ namespace TrooperSetupOrganizer
                 WeaponElementOutput.Text = Properties.Settings.Default.SecondWeaponElement;
                 WeaponExoticsOutput.Text = Properties.Settings.Default.SecondWeaponExotics;
                 WeaponElementDamageOutput.Text = Properties.Settings.Default.SecondWeaponElementDamage;
+                LightsaberCrystalOutput.Text = Properties.Settings.Default.SecondSaberCrystal;
+
+                if (Properties.Settings.Default.SecondSaberCrystal != "")
+                {
+                    LightsaberCrystalOutput.Visible = true;
+                }
+                else
+                {
+                    LightsaberCrystalOutput.Visible = false;
+                }
             }
 
             if (Properties.Settings.Default.CurrentSetupNumber == "3")
@@ -37,6 +57,16 @@ namespace TrooperSetupOrganizer
                 WeaponElementOutput.Text = Properties.Settings.Default.ThirdWeaponElement;
                 WeaponExoticsOutput.Text = Properties.Settings.Default.ThirdWeaponExotics;
                 WeaponElementDamageOutput.Text = Properties.Settings.Default.ThirdWeaponElementDamage;
+                LightsaberCrystalOutput.Text = Properties.Settings.Default.ThirdSaberCrystal;
+
+                if (Properties.Settings.Default.ThirdSaberCrystal != "")
+                {
+                    LightsaberCrystalOutput.Visible = true;
+                }
+                else
+                {
+                    LightsaberCrystalOutput.Visible = false;
+                }
             }
 
             if (Properties.Settings.Default.CurrentSetupNumber == "4")
@@ -46,6 +76,16 @@ namespace TrooperSetupOrganizer
                 WeaponElementOutput.Text = Properties.Settings.Default.FourthWeaponElement;
                 WeaponExoticsOutput.Text = Properties.Settings.Default.FourthWeaponExotics;
                 WeaponElementDamageOutput.Text = Properties.Settings.Default.FourthWeaponElementDamage;
+                LightsaberCrystalOutput.Text = Properties.Settings.Default.FourthSaberCrystal;
+
+                if (Properties.Settings.Default.FourthSaberCrystal != "")
+                {
+                    LightsaberCrystalOutput.Visible = true;
+                }
+                else
+                {
+                    LightsaberCrystalOutput.Visible = false;
+                }
             }
 
             if (Properties.Settings.Default.CurrentSetupNumber == "5")
@@ -55,6 +95,16 @@ namespace TrooperSetupOrganizer
                 WeaponElementOutput.Text = Properties.Settings.Default.FifthWeaponElement;
                 WeaponExoticsOutput.Text = Properties.Settings.Default.FifthWeaponExotics;
                 WeaponElementDamageOutput.Text = Properties.Settings.Default.FifthWeaponElementDamage;
+                LightsaberCrystalOutput.Text = Properties.Settings.Default.FifthSaberCrystal;
+
+                if (Properties.Settings.Default.FifthSaberCrystal != "")
+                {
+                    LightsaberCrystalOutput.Visible = true;
+                }
+                else
+                {
+                    LightsaberCrystalOutput.Visible = false;
+                }
             }
 
             if (Properties.Settings.Default.EditButtonEnabled == true)

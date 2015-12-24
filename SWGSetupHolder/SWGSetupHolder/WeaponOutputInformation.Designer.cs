@@ -39,6 +39,9 @@
             this.WeaponDPSOutput = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.WeaponElementDamageOutput = new System.Windows.Forms.TextBox();
+            this.LightsaberCrystalLabel = new System.Windows.Forms.Label();
+            this.LightsaberCrystalOutput = new System.Windows.Forms.TextBox();
+            this.LightsaberCrystalCheckbox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label4
@@ -117,24 +120,59 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(44, 160);
+            this.label5.Location = new System.Drawing.Point(4, 140);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(197, 20);
+            this.label5.Size = new System.Drawing.Size(133, 40);
             this.label5.TabIndex = 27;
-            this.label5.Text = "Weapon Element Damage";
+            this.label5.Text = "Weapon\r\nElement Damage";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // WeaponElementDamageOutput
             // 
-            this.WeaponElementDamageOutput.Location = new System.Drawing.Point(92, 183);
+            this.WeaponElementDamageOutput.Location = new System.Drawing.Point(16, 183);
             this.WeaponElementDamageOutput.Name = "WeaponElementDamageOutput";
+            this.WeaponElementDamageOutput.ReadOnly = true;
             this.WeaponElementDamageOutput.Size = new System.Drawing.Size(100, 20);
             this.WeaponElementDamageOutput.TabIndex = 26;
+            // 
+            // LightsaberCrystalLabel
+            // 
+            this.LightsaberCrystalLabel.AutoSize = true;
+            this.LightsaberCrystalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LightsaberCrystalLabel.Location = new System.Drawing.Point(166, 140);
+            this.LightsaberCrystalLabel.Name = "LightsaberCrystalLabel";
+            this.LightsaberCrystalLabel.Size = new System.Drawing.Size(98, 20);
+            this.LightsaberCrystalLabel.TabIndex = 30;
+            this.LightsaberCrystalLabel.Text = "Color Crystal";
+            this.LightsaberCrystalLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LightsaberCrystalOutput
+            // 
+            this.LightsaberCrystalOutput.Location = new System.Drawing.Point(164, 168);
+            this.LightsaberCrystalOutput.Name = "LightsaberCrystalOutput";
+            this.LightsaberCrystalOutput.ReadOnly = true;
+            this.LightsaberCrystalOutput.Size = new System.Drawing.Size(100, 20);
+            this.LightsaberCrystalOutput.TabIndex = 29;
+            // 
+            // LightsaberCrystalCheckbox
+            // 
+            this.LightsaberCrystalCheckbox.AutoSize = true;
+            this.LightsaberCrystalCheckbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LightsaberCrystalCheckbox.Location = new System.Drawing.Point(174, 191);
+            this.LightsaberCrystalCheckbox.Name = "LightsaberCrystalCheckbox";
+            this.LightsaberCrystalCheckbox.Size = new System.Drawing.Size(90, 20);
+            this.LightsaberCrystalCheckbox.TabIndex = 28;
+            this.LightsaberCrystalCheckbox.Text = "Lightsaber";
+            this.LightsaberCrystalCheckbox.UseVisualStyleBackColor = true;
             // 
             // WeaponOutputInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.LightsaberCrystalLabel);
+            this.Controls.Add(this.LightsaberCrystalOutput);
+            this.Controls.Add(this.LightsaberCrystalCheckbox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.WeaponElementDamageOutput);
             this.Controls.Add(this.label4);
@@ -171,5 +209,8 @@
         private System.Windows.Forms.TextBox WeaponDPSOutput;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox WeaponElementDamageOutput;
+        private System.Windows.Forms.Label LightsaberCrystalLabel;
+        private System.Windows.Forms.TextBox LightsaberCrystalOutput;
+        private System.Windows.Forms.CheckBox LightsaberCrystalCheckbox;
     }
 }
