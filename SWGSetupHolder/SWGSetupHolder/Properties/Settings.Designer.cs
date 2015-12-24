@@ -778,5 +778,65 @@ namespace TrooperSetupOrganizer.Properties {
                 this["FirstSetupName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FirstRobeName {
+            get {
+                return ((string)(this["FirstRobeName"]));
+            }
+            set {
+                this["FirstRobeName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SecondRobeName {
+            get {
+                return ((string)(this["SecondRobeName"]));
+            }
+            set {
+                this["SecondRobeName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ThirdRobeName {
+            get {
+                return ((string)(this["ThirdRobeName"]));
+            }
+            set {
+                this["ThirdRobeName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FourthRobeName {
+            get {
+                return ((string)(this["FourthRobeName"]));
+            }
+            set {
+                this["FourthRobeName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FifthRobeName {
+            get {
+                return ((string)(this["FifthRobeName"]));
+            }
+            set {
+                this["FifthRobeName"] = value;
+            }
+        }
     }
 }

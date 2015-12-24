@@ -40,6 +40,8 @@
             this.ProfessionInput = new System.Windows.Forms.TextBox();
             this.SetupNumberInput = new System.Windows.Forms.TextBox();
             this.EditButton = new System.Windows.Forms.Button();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.DiscardButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BuffsOutput
@@ -60,7 +62,7 @@
             this.WearablesOutput.TabIndex = 30;
             this.WearablesOutput.Text = "Wearables";
             this.WearablesOutput.UseVisualStyleBackColor = true;
-            this.WearablesOutput.Click += new System.EventHandler(this.ArmorInput_Click);
+            this.WearablesOutput.Click += new System.EventHandler(this.WearablesInput_Click);
             // 
             // label6
             // 
@@ -144,11 +146,33 @@
             this.EditButton.UseVisualStyleBackColor = true;
             this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
             // 
+            // SaveButton
+            // 
+            this.SaveButton.Location = new System.Drawing.Point(197, 226);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(75, 23);
+            this.SaveButton.TabIndex = 34;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
+            // DiscardButton
+            // 
+            this.DiscardButton.Location = new System.Drawing.Point(12, 226);
+            this.DiscardButton.Name = "DiscardButton";
+            this.DiscardButton.Size = new System.Drawing.Size(75, 23);
+            this.DiscardButton.TabIndex = 35;
+            this.DiscardButton.Text = "Discard";
+            this.DiscardButton.UseVisualStyleBackColor = true;
+            this.DiscardButton.Click += new System.EventHandler(this.DiscardButton_Click);
+            // 
             // LoadedSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.DiscardButton);
+            this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.EditButton);
             this.Controls.Add(this.SetupNumberInput);
             this.Controls.Add(this.BuffsOutput);
@@ -186,5 +210,7 @@
         private System.Windows.Forms.TextBox ProfessionInput;
         public System.Windows.Forms.TextBox SetupNumberInput;
         private System.Windows.Forms.Button EditButton;
+        private System.Windows.Forms.Button SaveButton;
+        private System.Windows.Forms.Button DiscardButton;
     }
 }

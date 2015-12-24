@@ -59,7 +59,32 @@ namespace TrooperSetupOrganizer
 
         private void SaveRobeInfoButton_Click(object sender, EventArgs e)
         {
+            NewSetupPage nsp = new NewSetupPage();
+            if (nsp.SetupNumberInput.Text == "1")
+            {
+                Properties.Settings.Default.FirstRobeName = RobeNameLabel.Text;
+            }
 
+            if (nsp.SetupNumberInput.Text == "2")
+            {
+                Properties.Settings.Default.SecondRobeName = RobeNameLabel.Text;
+            }
+
+            if (nsp.SetupNumberInput.Text == "3")
+            {
+                Properties.Settings.Default.ThirdRobeName = RobeNameLabel.Text;
+            }
+
+            if (nsp.SetupNumberInput.Text == "4")
+            {
+                Properties.Settings.Default.FourthRobeName = RobeNameLabel.Text;
+            }
+
+            if (nsp.SetupNumberInput.Text == "5")
+            {
+                Properties.Settings.Default.FifthRobeName = RobeNameLabel.Text;
+            }
+            Dispose();
         }
     }
 }
